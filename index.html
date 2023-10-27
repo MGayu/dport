@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><Gayathri-portfolio</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f0f0f0;
+            }
+            header {
+                background-color: #53023f;
+                color: #ffff;
+                text-align: center;
+                padding: 2rem 0;
+                position:relative;
+            }
+            .header-content h1{
+                font-size: 2.5rem;
+            }
+            .profile-picture{
+                width: 100px;
+                height: 100px;
+                border-radius: 75%;
+                object-fit: cover;
+                position: absolute;
+                top: 20px;
+                left: 75px;
+            }
+        nav{
+            background-color:#333;
+            color: #fff;
+            text-align: center;
+        }
+        nav ul{
+            list-style: none;
+            padding: 10px;
+        }
+        nav ul li{
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .section-content{
+            background-color: #dfb4d0;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .download-botton{
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .download-button:hover{
+            background-color: goldenrod;
+        }
+        footer{
+            text-align: center;
+            padding: 1rem 0;
+            background-color:#333;
+            color: #fff;
+        }
+        ul{
+            list-style-type: lower-roman;
+            padding-left: 20px;
+        }
+        </style>
+        </head>
+        <body>
+            <header>
+                <div class="header-content">
+                 <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIcAUQMBIgACEQEDEQH/xAAcAAAABwEBAAAAAAAAAAAAAAAAAQIEBQYHAwj/xABAEAABAwMCBAMFBAgDCQAAAAABAgMEAAUREiEGEzFBIlFhFHGBkaEyQsHRBxUWI1JigrHh8PEkM1NlcpKTlKL/xAAZAQACAwEAAAAAAAAAAAAAAAAAAwECBAX/xAAhEQACAgICAgMBAAAAAAAAAAAAAQIRAyESMSJBExRRBP/aAAwDAQACEQMRAD8A3GioUVBFh0VCizQRYdCkk0M0EWKoZpGaGaAsXmhmkaqPNBNis0KTmhQFiqLNJ1UWakixRNJzRZoiaCBRNFmubjqGk6nFBIHc02cnIGyAVH12qrkl2Sk30O1LCcaiBnYZoE7ZqrSLtNalNJfZCQrIC0bg/l8afJnp5qQ1IJUrBI2OPmaX8g34tE3q2o0nNNQ8lYJTRoWRTVsS9Oh1vR1w5nrQoA7UWaSVURNSAea4TJTcOOt944Sn611yPOoLiaexFaT7SttDSVJJW4cAH/TeqTlxjZaC5SoYvXhTy9SUOvK7FDZKUeg7ZpLV8jB9TLjbrelGQFpILh/KqfM47tLj6RiQ42l8lRS2cae2M486k7XxBbppbaD6AXCpxaVjG3YYNZN+zZxROuIRIUyFuFTz6wpwZ+wnOw+v0pii1qiltyO6rX9jC9xqAz9ffXF9vllMmAQh4jY5yDjuac2q5B2EUy1jmh1Kv+rttU2FErY38wQlZw8lR5gxjBz29KlEO571BvH2S5qSPsuoDgHmOh/A1JIVitEJaoxZotSse8z1o6acyhTBVkqd6GKFAmpotYRrLv0xqWXLfGJPJdKnFepAAH41p5NVbjzh5XEVqS3HUlExlWtlavqP8+VUyRtaG4ZqM9mMOx1cttQaKkOjGw6nGDj8q7W+1zrmpDUeK6+tHVKEkLA7kDv7vnir3YYlm4bjRYN+X7TcpriUuQUo5qUEnCSU9tseLvV7v1nuUmA1G4cnotawrxOhsHw46AYP+FJjA2TymSPS73wmVRr02ssOAJafwdk9cA+fvq12eRCk27mMaVlelA0HcKPb4CrLI4SiMcIzbbKddmqeCnXZD6srU52V6YwMVmXBUVItcf8AV02Om7KkOlMRxzd1ASM7diOo89/gSjRVOy7xpSbipbyjh6G3ylgHOrJ3Pu2+tSyHAEJ37CqHJuCuG5jD01l6O08rllakkpc/iyR0PfHp8rXDnw57YXCktupI+6rf5VbGZ/6fRKc0UKZ5NCmGUtWcUhSsUFrSkgKUBk4GT1rk4qmlgluYput0fGkPuVGT7jHgsqflr0tjYeZPYDzqjZA2bk21jjdmNIabEqZF1MPLOSFoP2RnzBJ/p9aspujqZRitx3HHB1cXhCfzPwFYlxWmbdLnGlKQ4xKlvoZgsk4WhA+8fIlRFTsb9KU20y5bEmEmfFacUmO5zNLukHA1K3Cs4z8ep60pvZtxrx2rNB43vIs/Ccl19aPaXW+U2E7ArUMbeg61mP6P7FFmMuSJEt6MpuW2tC2dOscpOcgkHAy8Mn0x509/TA6841aXNfOcmOfuUA+EZxpA95UN6TAv0bhiTbuHG3AuUZSEyXVjCFoXqKsn+pOB5AVG27GKkqNFuFrj3q2Srbc20rQ6nQ6QOivuOp8jn6+6sKtyJVqubjBcW1NhvFp1PTJBx8q3f9b2yA4YrDipcphvBQjxKCe2TWWcYRpDd/8A2qMVv2aStHMZUroRgDUR8M/jV3ik42KWaClx/Sw/rSR/P/4xR1w/af8A5Sr/ANpH5UVVF8H+GgyYwdlJWT93GEjxE59en96Zxw6xJdYfdJSslTepeVDzB+Y+td5j7qG5BjYDiWsIzv41EgZ+lKuDj8aBiK2XVtrSgAJBKyT4uuwAFW+Rt0Dw1GxlKcS0lSlqAQkEknsB3rKOIOLZD88PwkNtoQNLTjwyR6pHYnz3/CtH4vBTw/NIzgpAVj+EkA/Q1j7FlcvVydZTIZZDeVFKl6VKOew77VDttJBhjHi5S9DiwS83hdzuEhcl+K2qQdW5BSPD7vEUgD1qNYhv3GbyWUDnv4ShHXSB5/KrVJ4OXAgphpXJwrEiatkp1JHRCN+wGVHI6keVXP8ARxa+HYTJlx1oMl1ACQ6rxJHfrg5z12HuqJYZLbHxzwapEbx9ZJS7Tw1JhJLjlueab0n+kAn4p+tVGxtQeI+Nbk8/p1SkOLguDohST4D/ANqfpW2XtUdu1yeYpISUEJ36kjt615ybCotxWWFKSppZ0KG2k+YqYtxkmEoqcGjb48tsqtV0aY0F8ezSUpT9k9N/coVE8VOMLgXG1vbeEOI74Cj1+Cs/KpHgkJl2Zb0mMhKX1BRaIynOkZUB2ycml3Th1gApaT+6c89yj3GugnF6ZyKktoxP2GR/Aj5/4UdXv9lnPM/OhWP60jpfex/hqJ5LbpLvRa0nPqOgrtKbW7bH/Zf9+nKhnuetRt2ZRMhqZXqAKknUk4UnCgQQexB3rmht+fDa1XdMZAOl7lpCVLIODnJ2qFj3aFrLcafY1hcyVbcTMOJWFIzjZW5B/tVLjWK2zWZEN9kOvNuqbzjcDtvWjSmGoMZEdvSlDRITk9emfjuKrthtrLsy4qdJIdfOSk47CtkVFwbaMTlKORJOiKZelWziKZAeLj8C5pU+g6dSmcq8SfcAVDHoNqnm41ulXJ95KmV4YCUJJAwBkkny77+lTUDhqDE1uNalOLVq1Kxsemdh7h8KjuMLShnh65vxWEiSuOUrcSkatHcZpUZ1E0Sx8pIpFzuAuEd1NhW1HtUFooVNWn7R2B0DzOB9KpUZlZQp0IIBOGtR8Sz5mnDd6Wvh5FlYio0pWp1ToV4nCN9h5YH0FSPDEL9b3gKwgtMNBbbZOBqBI39wA+ee9ZZylNpG3HGMIttdGo2LUzbizoKVtnBTUo26ZEdSCAVAdDUZapgdllDqdC1NJyP4sEjI/t8KdPamH9SOtbezmdHDkuf8P6UKkva/5RQotkUhhcpZixFOhJXpI8PnuKio06MtuY04HW+a4VNJ0HYkDOdvPPzqYfa5qXWlp3QnCxjpmnEdhsREOhI3T1qmJpRaZMoyb0cZ8JV8aKsKbQnGEkfayCk/DBHyqpcJ31SWH48lGH2H+U5tuVAAEn6VcYKll9TuohKBk+6stDi4HF0xCydNweDiM9ArqR/9D5GnQ7r0UyLVrs2C3zNTWpWQMZqJ43kPv8KXRiKrQ+8wW0ny1bH44zTeNdEhEdk7c0FYzttkhP0H1qh8WcQ3i6FDlvb9ns0ea2yp9Y8T61K0+EfwjJ3pU4VsbiyctD+x2aJxEtPOZVGtECOI0PmbLeX95foBjYeprnZeGESL3IipLgLO/tTK+WVozjxeZ9avqIra2EtlKOVpATo2wO1d4LDELmaAdbhGpSsZOOg26D0pbx7HLPohZYbtk63MtoICAWgc/dJ7+e+KnXm0uoBNQfFikpXDe8ln6YP4VOsqC0jHQ099JmZO5NHPkJoU60jzoVTZbiiCae0yll+HyHGypsqbc0qWfPbI/wBaeWSSH4r7WVHlPLQCrc4zkf3oUKXj9l5PyFSXEMR1Mt/bX1PpVNuMaA7cv9qiB6S0W3I7hWpIbWAc50kagdtqKhWqEU9GecmnaIq5TpceZFQ6pK3ZDukqwAAkDsOwG2BVd4ylc8NyLnJcLLUhLMKC0MIKUq/eqV/MR39aKhRnWmH8ztotnCN0Zt9ytzFqfkuWW8MuuR2JCiVRnEfaTv2q7rcUVZBoUKrBBmbIjivUbbGd6hL+D7ik1KWGXzLe2pR8SEYV7xQoVeS8CsX5jvMj0+dHQoUuhls//9k=" class="profile-picture">
+                    <h1 style="font-size: xx-large;">Gayathri</h1>
+                    <p>BCA Student</p>
+                </div>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </nav>
+            <section id="about">
+                <div class="section-content">
+                    <h2>About Me</h2>
+                    <p>Hii!!! This is <b>GayathriMarimuthu</b>. I am a <b>BCA </b>student.I am hardworking and dedicative person, thats why i am best in my academic year. Eager to learn many new things about PGDCA. I hope that i will be the best front end developer. And then, i always wish to serve the needy for that iam really feel proud to be a part of a <q>NGO</q>.</p> 
+                </div>
+            </section>
+            <section id="education">
+                <div class="section-content">
+                    <h2>Education</h2>
+                    <table border="1">
+                        <tr>
+                        <td><b>Graduation</b></td>
+                         <td><b>Platform</b></td>
+                         <td><b>Percentage</b></td>
+                         <td><b>Passed year</b></td></b>
+                         </tr>
+                         
+                        <tr>
+                            <td>
+                                10th grade</td>
+                            <td>AVRMV</td>
+                            <td>90%</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>11th grade</td>
+                            <td>Stmarys</td>
+                            <td>95%</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>12th</td>
+                            <td>Stmarys</td>
+                            <td>93%</td>
+                            <td>2020</td>
+                        </tr>
+                        </table>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="section-content">
+                    <h2>projects</h2>
+                        <ul>
+                            <li><a href="#">Calender</li>
+                            <li><a href="#">College Webpage</li>
+                            <li><a href="#">Billing</li>
+                        </ul>
+                </div>
+            </section>
+                <section id="skills">
+                    <div class="section-content">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>C programming</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </section>
+            </div>
+<footer>
+    <p>&copy;2023 Gayathri</p>
+    </footer>
+<script>
+//smooth scrooling to section when clicking on navigationlinks documents.querySelectorAll('a[href^="#"]').forEach(anchor=>)
+{
+    anchor.addEventListen('click',function(e){
+        e.preventDefault();
+        const targertId= this.getAttribute('href').substring(1);
+        const targetElement= document.getElementById(targetId);
+        if(targertElement){window.scrollTo({top: targetElement.offsetTop,behavior:'smooth'});
+    }
+    });
+};                        
